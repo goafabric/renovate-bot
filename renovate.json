@@ -1,6 +1,7 @@
 {
   "repositories": [
-    "goafabric/callee-service"
+    "goafabric/callee-service",
+    "goafabric/person-service"
   ],
   "baseBranches": [
     "autoupdate"
