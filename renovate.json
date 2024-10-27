@@ -1,6 +1,8 @@
 {
   "repositories": [
-    "goafabric/callee-service"
+    "goafabric/callee-service",
+    "goafabric/event-dispatcher-service"
+
   ],
   "baseBranches": [
     "autoupdate"
