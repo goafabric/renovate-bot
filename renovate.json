@@ -1,11 +1,10 @@
 {
   "repositories": [
     "goafabric/callee-service",
-    "goafabric/person-service",
-    "goafabric/catalog-batch-service"
+    "goafabric/person-service"
   ],
   "baseBranches": [
-    "autoupdate"
+    "refactoring"
   ],
   "extends": [
     "config:recommended"
