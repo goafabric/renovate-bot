@@ -1,7 +1,9 @@
 {
   "repositories": [
     "goafabric/callee-service",
-    "goafabric/person-service"
+    "goafabric/person-service",
+    "goafabric/catalog-batch-service",
+    "goafabric/event-dispatcher-service"
   ],
   "baseBranches": [
     "refactoring"
