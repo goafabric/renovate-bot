@@ -1,0 +1,32 @@
+{
+  "repositories": [
+    "goafabric/callee-service",
+    "goafabric/person-service",
+    "goafabric/core-service",
+    "goafabric/catalog-batch-service",
+    "goafabric/event-dispatcher-service"
+  ],
+  "baseBranches": [
+    "refactoring"
+  ],
+  "extends": [
+    "config:recommended"
+  ],
+  "dependencyDashboard": false,
+
+  "prConcurrentLimit": 0,
+  "prHourlyLimit": 0,
+  "enabledManagers": ["gradle"],
+  "ignoreTests": false,
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "automerge": true,
+      "automergeType": "branch",
+      "groupName": "all-updates"
+    }
+  ]
+}
