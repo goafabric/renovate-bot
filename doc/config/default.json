@@ -5,8 +5,13 @@
     "goafabric/core-service",
     "goafabric/catalog-batch-service",
     "goafabric/event-dispatcher-service",
+
     "goafabric/fhir-facade",
-    "goafabric/example-search-service"
+    "goafabric/example-search-service",
+
+    "goafabric/callee-service-quarkus",
+    "goafabric/person-service-quarkus"
+
   ],
   "baseBranches": [
     "refactoring"
