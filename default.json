@@ -9,8 +9,7 @@
     "goafabric/example-search-service"
   ],
   "baseBranches": [
-    "refactoring",
-    "kotlin"
+    "refactoring"
   ],
   "extends": [
     "config:recommended"
