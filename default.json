@@ -4,7 +4,9 @@
     "goafabric/person-service",
     "goafabric/core-service",
     "goafabric/catalog-batch-service",
-    "goafabric/event-dispatcher-service"
+    "goafabric/event-dispatcher-service",
+    "goafabric/fhir-facade",
+    "goafabric/example-search-service"
   ],
   "baseBranches": [
     "refactoring",
