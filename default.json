@@ -7,7 +7,8 @@
     "goafabric/event-dispatcher-service"
   ],
   "baseBranches": [
-    "refactoring"
+    "refactoring",
+    "kotlin"
   ],
   "extends": [
     "config:recommended"
