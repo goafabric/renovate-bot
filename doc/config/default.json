@@ -2,12 +2,13 @@
   "repositories": [
     "goafabric/callee-service",
     "goafabric/person-service",
+
     "goafabric/core-service",
     "goafabric/catalog-batch-service",
     "goafabric/event-dispatcher-service",
 
+    "goafabric/invoice-process",
     "goafabric/fhir-facade",
-    "goafabric/example-search-service",
 
     "goafabric/callee-service-quarkus",
     "goafabric/person-service-quarkus"
