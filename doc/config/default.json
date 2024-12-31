@@ -33,7 +33,8 @@
       ],
       "automerge": true,
       "automergeType": "branch",
-      "groupName": "all-updates"
+      "groupName": "all-updates",
+      "requiredStatusChecks": null
     }
   ]
 }
