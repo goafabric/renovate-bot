@@ -1,15 +1,6 @@
 {
   "repositories": [
-    "goafabric/callee-service",
-    "goafabric/person-service",
-
-    "goafabric/core-service",
-    "goafabric/catalog-batch-service",
-    "goafabric/event-dispatcher-service",
-    "goafabric/invoice-process",
-
-    "goafabric/callee-service-quarkus",
-    "goafabric/person-service-quarkus"
+    "goafabric/callee-service"
   ],
   "baseBranches": [
     "refactoring"
@@ -21,7 +12,7 @@
 
   "prConcurrentLimit": 0,
   "prHourlyLimit": 0,
-  "enabledManagers": ["gradle"],
+  "enabledManagers": ["gradle","github-actions"],
   "ignoreTests": false,
   "packageRules": [
     {
