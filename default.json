@@ -21,7 +21,7 @@
 
   "prConcurrentLimit": 0,
   "prHourlyLimit": 0,
-  "enabledManagers": ["gradle"],
+  "enabledManagers": ["gradle","github-actions"],
   "ignoreTests": false,
   "packageRules": [
     {
@@ -32,6 +32,17 @@
       "automerge": true,
       "automergeType": "branch",
       "groupName": "all-updates"
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch"
+      ],
+      "automerge": true,
+      "automergeType": "branch",
+      "groupName": "github-updates"
     }
   ]
 }
