@@ -12,7 +12,7 @@
     "goafabric/person-service-quarkus"
   ],
   "baseBranches": [
-    "refactoring"
+    "develop"
   ],
   "extends": [
     "config:recommended"
