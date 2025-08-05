@@ -10,8 +10,7 @@
     "goafabric/invoice-process",
 
     "goafabric/callee-service-quarkus",
-    "goafabric/person-service-quarkus",
-    "core-fe"
+    "goafabric/person-service-quarkus"
   ],
   "baseBranches": [
     "develop"
