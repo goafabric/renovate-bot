@@ -1,6 +1,5 @@
 {
   "repositories": [
-    "goafabric/core-fe",
     "goafabric/callee-service",
     "goafabric/person-service",
 
@@ -10,7 +9,9 @@
     "goafabric/invoice-process",
 
     "goafabric/callee-service-quarkus",
-    "goafabric/person-service-quarkus"
+    "goafabric/person-service-quarkus",
+
+    "goafabric/core-fe"
   ],
   "baseBranches": [
     "develop"
