@@ -27,6 +27,7 @@
   "ignoreTests": false,
   "packageRules": [
     {
+      "matchManagers": ["gradle"],
       "matchUpdateTypes": [
         "minor",
         "patch"
