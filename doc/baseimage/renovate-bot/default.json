@@ -1,0 +1,18 @@
+{
+  "repositories": [
+    "goafabric/renovate-test"
+  ],
+  "baseBranches": [
+    "main"
+  ],
+  "extends": [
+    "config:recommended"
+  ],
+  "dependencyDashboard": false,
+
+  "prConcurrentLimit": 0,
+  "prHourlyLimit": 0,
+  "enabledManagers": ["gradle","github-actions","dockerfile"],
+  "ignoreTests": false
+
+}
