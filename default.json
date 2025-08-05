@@ -46,7 +46,7 @@
       "groupName": "github-updates"
     },
     {
-      "matchPackageNames": ["typescript"],
+      "matchManagers": ["npm"],
       "matchUpdateTypes": [
         "minor",
         "patch"
