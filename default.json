@@ -1,6 +1,17 @@
 {
   "repositories": [
-    "goafabric/callee-service"
+    "goafabric/callee-service",
+    "goafabric/person-service",
+
+    "goafabric/core-service",
+    "goafabric/catalog-batch-service",
+    "goafabric/event-dispatcher-service",
+    "goafabric/invoice-process",
+
+    "goafabric/callee-service-quarkus",
+    "goafabric/person-service-quarkus",
+
+    "goafabric/core-fe"
   ],
   "baseBranches": [
     "develop"
@@ -12,7 +23,7 @@
 
   "prConcurrentLimit": 0,
   "prHourlyLimit": 0,
-  "enabledManagers": ["gradle","github-actions","npm","docker-compose"],
+  "enabledManagers": ["gradle","github-actions","npm"],
   "ignoreTests": false,
   "packageRules": [
     {
@@ -44,17 +55,6 @@
       "automerge": true,
       "automergeType": "branch",
       "groupName": "all-updates"
-    },
-    {
-      "matchManagers": ["docker-compose"],
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
-      "automerge": true,
-      "automergeType": "branch",
-      "groupName": "all-updates"
     }
-
   ]
 }
