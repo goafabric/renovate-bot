@@ -22,7 +22,7 @@
 
       "automerge": true,
       "automergeType": "branch",
-      "groupName": "docker-updates"
+      "groupName": "image-updates"
     }
   ]
 }
