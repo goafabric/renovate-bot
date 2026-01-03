@@ -34,9 +34,7 @@
       ],
       "automerge": true,
       "automergeType": "branch",
-      "groupName": "all-updates",
-      "matchPackagePrefixes": ["org.jetbrains.kotlin."],
-      "ignoreVersions": ["2.3.0"]
+      "groupName": "all-updates"
     },
     {
       "matchManagers": ["github-actions"],
