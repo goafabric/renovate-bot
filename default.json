@@ -7,11 +7,11 @@
     "goafabric/catalog-batch-service",
     "goafabric/event-dispatcher-service",
     "goafabric/invoice-process",
+    "goafabric/core-fe",
 
     "goafabric/callee-service-quarkus",
     "goafabric/person-service-quarkus",
-
-    "goafabric/core-fe"
+    "goafabric/catalog-batch-service-quarkus"
   ],
   "baseBranches": [
     "develop"
