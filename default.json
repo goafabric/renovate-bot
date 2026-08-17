@@ -5,7 +5,8 @@
     
     "goafabric/callee-service-quarkus",
     "goafabric/person-service-quarkus",
-    
+
+    "goafabric/core-service-quarkus",
     "goafabric/catalog-batch-service-quarkus",
     "goafabric/invoice-process-quarkus"
   ],
